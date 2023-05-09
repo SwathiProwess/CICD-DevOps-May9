@@ -169,7 +169,7 @@ output application/json
 output application/json
 ---
 {
-	"message": vars.zip.Fname ++ " " ++ vars.zip.Lname ++ " lives in "++ (payload.results..city joinBy ",")
+	"message": vars.zip.Fname ++ " " ++ vars.zip.Lname ++ " lives in the "++ (payload.results..city joinBy ",")
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
